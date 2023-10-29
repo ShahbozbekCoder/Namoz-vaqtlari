@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.mainPage.MainPageFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#ECDA3C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <TextView
+            android:id="@+id/prayerPlace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_gravity="start|center"
+            android:layout_marginBottom="32dp"
+            android:layout_marginStart="32dp"
+            android:text="@string/tashkent" />
+
+        <TextView
+            android:id="@+id/prayerDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom|start"
+            android:layout_marginStart="32dp"
+            android:text="@string/_29_10_2023"
+            android:layout_marginBottom="40dp"
+            android:textSize="26sp"/>
+
+        <TextView
+            android:id="@+id/prayerWeekday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom|end"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="40dp"
+            android:textSize="26sp"
+            android:text="@string/yakshanba" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

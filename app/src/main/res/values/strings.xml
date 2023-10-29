@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Namoz vaqtlari</string>
+    <string name="namoz_vaqtlari">Namoz vaqtlari</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dastur_ishlanmoqda">Dastur ishlanmoqda</string>
+    <string name="tashkent">Tashkent</string>
+    <string name="_29_10_2023">29.10.2023</string>
+    <string name="yakshanba">Yakshanba</string>
 </resources>
