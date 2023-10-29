@@ -4,7 +4,14 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="dastur_ishlanmoqda">Dastur ishlanmoqda</string>
-    <string name="tashkent">Tashkent</string>
-    <string name="_29_10_2023">29.10.2023</string>
-    <string name="yakshanba">Yakshanba</string>
+    <string name="tashkent">Buxoro</string>
+    <string name="_29_10_2023">12.12.2022</string>
+    <string name="yakshanba">Shanba</string>
+    <string name="quyosh_chiqishi">Quyosh chiqishi</string>
+    <string name="asr">Asr</string>
+    <string name="peshin">Peshin</string>
+    <string name="quyosh">Quyosh</string>
+    <string name="subhi_sodiq">Subhi sodiq</string>
+    <string name="shom">Shom</string>
+    <string name="xufton">Xufton</string>
 </resources>
