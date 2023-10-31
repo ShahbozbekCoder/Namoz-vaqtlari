@@ -1,5 +1,6 @@
 package uz.shahbozbek.namozvaqtlari.ui.fragments.mainPage
 
+import android.icu.util.GregorianCalendar
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -10,6 +11,7 @@ import androidx.fragment.app.viewModels
 import dagger.hilt.android.AndroidEntryPoint
 import uz.shahbozbek.namozvaqtlari.R
 import uz.shahbozbek.namozvaqtlari.databinding.FragmentMainPageBinding
+import java.text.SimpleDateFormat
 
 @AndroidEntryPoint
 class MainPageFragment : Fragment() {
