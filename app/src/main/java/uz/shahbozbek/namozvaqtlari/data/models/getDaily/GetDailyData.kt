@@ -1,8 +1,7 @@
 package uz.shahbozbek.namozvaqtlari.data.models.getDaily
 
 data class GetDailyData(
-    val date: String,
-    val region: String,
-    val times: Times,
-    val weekday: String
+    val code: Int,
+    val `data`: Data,
+    val status: String
 )
