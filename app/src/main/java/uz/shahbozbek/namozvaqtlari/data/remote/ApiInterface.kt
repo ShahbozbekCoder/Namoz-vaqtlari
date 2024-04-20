@@ -15,11 +15,11 @@ interface ApiInterface {
 //    @GET("present/week?region=region")
 //    suspend fun getWeekly(@Query("region") region: String): Response<GetWeeklyData>
 
-    @GET("calendarByCity/year/month?city=Tashkent&country=Uzbekistan&method=1")
+    @GET("calendarByCity?year=years&month=months&method=1&city=region&country=Uzbekistan")
     suspend fun getMonthly(
         @Query("region") region: String,
-        @Query("month") month: Int,
-        @Query("year") year: Int
+        @Query("months") month: Int,
+        @Query("years") year: Int
     ): Response<GetMonthlyData>
 
 }
