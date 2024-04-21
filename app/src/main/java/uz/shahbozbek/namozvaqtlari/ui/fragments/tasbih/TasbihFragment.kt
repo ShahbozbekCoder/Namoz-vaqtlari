@@ -26,7 +26,7 @@ class TasbihFragment : Fragment(R.layout.fragment_tasbih) {
                 binding.zeekrSum.text = numberOfSum.toString()
                 binding.button.text = numberOfZeekr.toString()
             } else {
-                numberOfZeekr = 0
+                numberOfZeekr = 1
                 binding.tasbihNumber.text = numberOfZeekr.toString()
                 binding.zeekrSum.text = numberOfSum.toString()
                 binding.button.text = numberOfZeekr.toString()
@@ -45,6 +45,9 @@ class TasbihFragment : Fragment(R.layout.fragment_tasbih) {
             numberOfSum = 0
             sumOfZeekr = 0
             binding.zeekrName.setText(R.string.subhanalloh)
+            binding.tasbihNumber.text = numberOfZeekr.toString()
+            binding.zeekrSum.text = numberOfSum.toString()
+            binding.button.text = numberOfZeekr.toString()
         }
     }
 }
